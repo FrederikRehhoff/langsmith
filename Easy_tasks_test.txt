@@ -1,0 +1,3 @@
+Move Robot22 to location (7, 6) and remove the toolkit.
+Move Robot6 to location (7, 4) and remove the liquid spill.
+Move Robot2 to location (6, 6) and remove the large debris.

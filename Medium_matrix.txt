@@ -1,0 +1,3 @@
+Robot2;gripper;toolkit;(3, 3)
+Robot6;mop;liquid spill;(9, 5)
+Robot2;gripper;large debris;location (3, 4)

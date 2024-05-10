@@ -1,0 +1,36 @@
+----------------------------------------------------------------------
+Task: Move Robot22 to location (7, 6) and remove the toolkit.
+
+Best case:
+   1. Robot:          Robot22
+   2. Tool property:  gripper
+   3. Item:           toolkit
+   4. Location:       (7, 6)
+
+Alternatives:
+   1. Robot:          [['Robot2', 'Robot22', 'Robot32', 'Robot42']]
+   2. Tool property:  ['gripper']
+----------------------------------------------------------------------
+Task: Move Robot6 to location (7, 4) and remove the liquid spill.
+
+Best case:
+   1. Robot:          Robot6
+   2. Tool property:  mop
+   3. Item:           liquid spill
+   4. Location:       (7, 4)
+
+Alternatives:
+   1. Robot:          [['Robot6', 'Robot26']]
+   2. Tool property:  ['mop']
+----------------------------------------------------------------------
+Task: Move Robot2 to location (6, 6) and remove the large debris.
+
+Best case:
+   1. Robot:          Robot2
+   2. Tool property:  gripper
+   3. Item:           large debris
+   4. Location:       (6, 6)
+
+Alternatives:
+   1. Robot:          [['Robot2', 'Robot22', 'Robot32', 'Robot42'], ['Robot9', 'Robot19', 'Robot29', 'Robot39']]
+   2. Tool property:  ['gripper', 'front loader']

@@ -1,0 +1,55 @@
+----------------------------------------------------------------------
+Task: Move Robot11 to location (4, 1) and remove the toolkit.
+
+Analysis: Robot11 has the wrong tool property lawnmower. Select robot with tool property ['gripper'].
+
+Best case gripper:
+   1. Robot:          Robot2
+   2. Tool property:  gripper
+   3. Item:           toolkit
+   4. Location:       (4, 1)
+
+Alternative gripper:
+   1. Robot:          ['Robot2', 'Robot22', 'Robot32', 'Robot42']
+   2. Tool property:  gripper
+
+----------------------------------------------------------------------
+Task: Move Robot42 to location (5, 6) and remove the liquid spill.
+
+Analysis: Robot42 has the wrong tool property gripper. Select robot with tool property ['mop'].
+
+Best case mop:
+   1. Robot:          Robot6
+   2. Tool property:  mop
+   3. Item:           liquid spill
+   4. Location:       (5, 6)
+
+Alternative mop:
+   1. Robot:          ['Robot6', 'Robot26']
+   2. Tool property:  mop
+
+----------------------------------------------------------------------
+Task: Move Robot9 to location (3, 7) and remove the large debris.
+
+Analysis: Robot9 has the wrong tool property front Loader. Select robot with tool property ['gripper', 'front loader'].
+
+Best case gripper:
+   1. Robot:          Robot2
+   2. Tool property:  gripper
+   3. Item:           large debris
+   4. Location:       (3, 7)
+
+Alternative gripper:
+   1. Robot:          ['Robot2', 'Robot22', 'Robot32', 'Robot42']
+   2. Tool property:  gripper
+
+Best case front loader:
+   1. Robot:          Robot9
+   2. Tool property:  front loader
+   3. Item:           large debris
+   4. Location:       (3, 7)
+
+Alternative front loader:
+   1. Robot:          ['Robot9', 'Robot19', 'Robot29', 'Robot39']
+   2. Tool property:  front loader
+
