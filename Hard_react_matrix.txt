@@ -1,3 +1,0 @@
-Robot2;gripper;toolkit;(7, 5)
-Robot26;mop;liquid spill;(6, 2)
-Robot41;front loader;large debris;(12, 12)

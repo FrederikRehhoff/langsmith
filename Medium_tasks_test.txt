@@ -1,3 +1,0 @@
-Move to location (4, 11) and remove the toolkit.
-Move to location (11, 12) and remove the liquid spill.
-Move to location (8, 10) and remove the large debris.

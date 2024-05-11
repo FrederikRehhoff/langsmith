@@ -1,0 +1,120 @@
+----------------------------------------------------------------------
+Task: Move Robot22 to location (6, 1) and remove the toolkit.
+
+Best case:
+   1. Robot:          Robot22
+   2. Tool property:  gripper
+   3. Item:           toolkit
+   4. Location:       (6, 1)
+
+Alternatives:
+   1. Robot:          [['Robot2', 'Robot22', 'Robot32', 'Robot42']]
+   2. Tool property:  ['gripper']
+----------------------------------------------------------------------
+Task: Move Robot6 to location (3, 8) and remove the liquid spill.
+
+Best case:
+   1. Robot:          Robot6
+   2. Tool property:  mop
+   3. Item:           liquid spill
+   4. Location:       (3, 8)
+
+Alternatives:
+   1. Robot:          [['Robot6', 'Robot26']]
+   2. Tool property:  ['mop']
+----------------------------------------------------------------------
+Task: Move Robot32 to location (12, 1) and remove the large debris.
+
+Best case:
+   1. Robot:          Robot32
+   2. Tool property:  gripper
+   3. Item:           large debris
+   4. Location:       (12, 1)
+
+Alternatives:
+   1. Robot:          [['Robot2', 'Robot22', 'Robot32', 'Robot42'], ['Robot9', 'Robot19', 'Robot29', 'Robot39']]
+   2. Tool property:  ['gripper', 'front loader']
+----------------------------------------------------------------------
+Task: Move Robot28 to location (9, 4) and remove the dust.
+
+Best case:
+   1. Robot:          Robot28
+   2. Tool property:  broom
+   3. Item:           dust
+   4. Location:       (9, 4)
+
+Alternatives:
+   1. Robot:          [['Robot10', 'Robot40', 'Robot50'], ['Robot8', 'Robot28', 'Robot48']]
+   2. Tool property:  ['vacuum', 'broom']
+----------------------------------------------------------------------
+Task: Move Robot41 to location (7, 6) and remove the grass.
+
+Best case:
+   1. Robot:          Robot41
+   2. Tool property:  lawnmower
+   3. Item:           grass
+   4. Location:       (7, 6)
+
+Alternatives:
+   1. Robot:          [['Robot11', 'Robot21', 'Robot31', 'Robot41']]
+   2. Tool property:  ['lawnmower']
+----------------------------------------------------------------------
+Task: Move Robot50 to location (12, 12) and remove the small debris.
+
+Best case:
+   1. Robot:          Robot50
+   2. Tool property:  vacuum
+   3. Item:           small debris
+   4. Location:       (12, 12)
+
+Alternatives:
+   1. Robot:          [['Robot8', 'Robot28', 'Robot48'], ['Robot10', 'Robot40', 'Robot50']]
+   2. Tool property:  ['broom', 'vacuum']
+----------------------------------------------------------------------
+Task: Move Robot23 to location (9, 4) and remove the vehicle.
+
+Best case:
+   1. Robot:          Robot23
+   2. Tool property:  tow hook
+   3. Item:           vehicle
+   4. Location:       (9, 4)
+
+Alternatives:
+   1. Robot:          [['Robot13', 'Robot23']]
+   2. Tool property:  ['tow hook']
+----------------------------------------------------------------------
+Task: Move Robot42 to location (8, 8) and remove the construction materials.
+
+Best case:
+   1. Robot:          Robot42
+   2. Tool property:  gripper
+   3. Item:           construction materials
+   4. Location:       (8, 8)
+
+Alternatives:
+   1. Robot:          [['Robot2', 'Robot22', 'Robot32', 'Robot42'], ['Robot9', 'Robot19', 'Robot29', 'Robot39'], ['Robot13', 'Robot23']]
+   2. Tool property:  ['gripper', 'front loader', 'tow hook']
+----------------------------------------------------------------------
+Task: Move Robot24 to location (6, 10) and remove the tree branches.
+
+Best case:
+   1. Robot:          Robot24
+   2. Tool property:  saw
+   3. Item:           tree branches
+   4. Location:       (6, 10)
+
+Alternatives:
+   1. Robot:          [['Robot14', 'Robot24']]
+   2. Tool property:  ['saw']
+----------------------------------------------------------------------
+Task: Move Robot15 to location (9, 4) and remove the screws.
+
+Best case:
+   1. Robot:          Robot15
+   2. Tool property:  screwdriver
+   3. Item:           screws
+   4. Location:       (9, 4)
+
+Alternatives:
+   1. Robot:          [['Robot15', 'Robot35', 'Robot45']]
+   2. Tool property:  ['screwdriver']
