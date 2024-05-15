@@ -1,3 +1,10 @@
-Move to location (9, 4) and remove the construction materials.
-Move to location (12, 12) and remove the tree branches.
-Move to location (10, 3) and remove the screws.
+Move to location (9, 5) and remove the toolkit.
+Move to location (3, 8) and remove the liquid spill.
+Move to location (1, 4) and remove the large debris.
+Move to location (6, 5) and remove the dust.
+Move to location (9, 5) and remove the grass.
+Move to location (5, 12) and remove the small debris.
+Move to location (11, 12) and remove the vehicle.
+Move to location (12, 1) and remove the construction materials.
+Move to location (8, 12) and remove the tree branches.
+Move to location (3, 5) and remove the screws.

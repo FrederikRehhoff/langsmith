@@ -1,60 +1,60 @@
 ----------------------------------------------------------------------
-Task: Move to location (4, 1) and remove the toolkit.
+Task: Move to location (9, 5) and remove the toolkit.
 
 Best case gripper:
-   1. Robot:          Robot2
+   1. Robot:          Robot42
    2. Tool property:  gripper
    3. Item:           toolkit
-   4. Location:       (4, 1)
+   4. Location:       (9, 5)
 
 Alternative gripper:
    1. Robot:          ['Robot2', 'Robot22', 'Robot32', 'Robot42']
    2. Tool property:  gripper
 
 ----------------------------------------------------------------------
-Task: Move to location (4, 7) and remove the liquid spill.
+Task: Move to location (3, 8) and remove the liquid spill.
 
 Best case mop:
    1. Robot:          Robot6
    2. Tool property:  mop
    3. Item:           liquid spill
-   4. Location:       (4, 7)
+   4. Location:       (3, 8)
 
 Alternative mop:
    1. Robot:          ['Robot6', 'Robot26']
    2. Tool property:  mop
 
 ----------------------------------------------------------------------
-Task: Move to location (10, 2) and remove the large debris.
+Task: Move to location (1, 4) and remove the large debris.
 
 Best case gripper:
-   1. Robot:          Robot42
+   1. Robot:          Robot2
    2. Tool property:  gripper
    3. Item:           large debris
-   4. Location:       (10, 2)
+   4. Location:       (1, 4)
 
 Alternative gripper:
    1. Robot:          ['Robot2', 'Robot22', 'Robot32', 'Robot42']
    2. Tool property:  gripper
 
 Best case front loader:
-   1. Robot:          Robot29
+   1. Robot:          Robot39
    2. Tool property:  front loader
    3. Item:           large debris
-   4. Location:       (10, 2)
+   4. Location:       (1, 4)
 
 Alternative front loader:
    1. Robot:          ['Robot9', 'Robot19', 'Robot29', 'Robot39']
    2. Tool property:  front loader
 
 ----------------------------------------------------------------------
-Task: Move to location (8, 2) and remove the dust.
+Task: Move to location (6, 5) and remove the dust.
 
 Best case vacuum:
-   1. Robot:          Robot40
+   1. Robot:          Robot50
    2. Tool property:  vacuum
    3. Item:           dust
-   4. Location:       (8, 2)
+   4. Location:       (6, 5)
 
 Alternative vacuum:
    1. Robot:          ['Robot10', 'Robot40', 'Robot50']
@@ -64,69 +64,69 @@ Best case broom:
    1. Robot:          Robot8
    2. Tool property:  broom
    3. Item:           dust
-   4. Location:       (8, 2)
+   4. Location:       (6, 5)
 
 Alternative broom:
    1. Robot:          ['Robot8', 'Robot28', 'Robot48']
    2. Tool property:  broom
 
 ----------------------------------------------------------------------
-Task: Move to location (6, 1) and remove the grass.
+Task: Move to location (9, 5) and remove the grass.
 
 Best case lawnmower:
-   1. Robot:          Robot41
+   1. Robot:          Robot11
    2. Tool property:  lawnmower
    3. Item:           grass
-   4. Location:       (6, 1)
+   4. Location:       (9, 5)
 
 Alternative lawnmower:
    1. Robot:          ['Robot11', 'Robot21', 'Robot31', 'Robot41']
    2. Tool property:  lawnmower
 
 ----------------------------------------------------------------------
-Task: Move to location (12, 11) and remove the small debris.
+Task: Move to location (5, 12) and remove the small debris.
 
 Best case broom:
-   1. Robot:          Robot8
+   1. Robot:          Robot28
    2. Tool property:  broom
    3. Item:           small debris
-   4. Location:       (12, 11)
+   4. Location:       (5, 12)
 
 Alternative broom:
    1. Robot:          ['Robot8', 'Robot28', 'Robot48']
    2. Tool property:  broom
 
 Best case vacuum:
-   1. Robot:          Robot10
+   1. Robot:          Robot50
    2. Tool property:  vacuum
    3. Item:           small debris
-   4. Location:       (12, 11)
+   4. Location:       (5, 12)
 
 Alternative vacuum:
    1. Robot:          ['Robot10', 'Robot40', 'Robot50']
    2. Tool property:  vacuum
 
 ----------------------------------------------------------------------
-Task: Move to location (9, 10) and remove the vehicle.
+Task: Move to location (11, 12) and remove the vehicle.
 
 Best case tow hook:
    1. Robot:          Robot23
    2. Tool property:  tow hook
    3. Item:           vehicle
-   4. Location:       (9, 10)
+   4. Location:       (11, 12)
 
 Alternative tow hook:
    1. Robot:          ['Robot13', 'Robot23']
    2. Tool property:  tow hook
 
 ----------------------------------------------------------------------
-Task: Move to location (9, 4) and remove the construction materials.
+Task: Move to location (12, 1) and remove the construction materials.
 
 Best case gripper:
-   1. Robot:          Robot42
+   1. Robot:          Robot32
    2. Tool property:  gripper
    3. Item:           construction materials
-   4. Location:       (9, 4)
+   4. Location:       (12, 1)
 
 Alternative gripper:
    1. Robot:          ['Robot2', 'Robot22', 'Robot32', 'Robot42']
@@ -136,7 +136,7 @@ Best case front loader:
    1. Robot:          Robot29
    2. Tool property:  front loader
    3. Item:           construction materials
-   4. Location:       (9, 4)
+   4. Location:       (12, 1)
 
 Alternative front loader:
    1. Robot:          ['Robot9', 'Robot19', 'Robot29', 'Robot39']
@@ -146,33 +146,33 @@ Best case tow hook:
    1. Robot:          Robot23
    2. Tool property:  tow hook
    3. Item:           construction materials
-   4. Location:       (9, 4)
+   4. Location:       (12, 1)
 
 Alternative tow hook:
    1. Robot:          ['Robot13', 'Robot23']
    2. Tool property:  tow hook
 
 ----------------------------------------------------------------------
-Task: Move to location (12, 12) and remove the tree branches.
+Task: Move to location (8, 12) and remove the tree branches.
 
 Best case saw:
    1. Robot:          Robot14
    2. Tool property:  saw
    3. Item:           tree branches
-   4. Location:       (12, 12)
+   4. Location:       (8, 12)
 
 Alternative saw:
    1. Robot:          ['Robot14', 'Robot24']
    2. Tool property:  saw
 
 ----------------------------------------------------------------------
-Task: Move to location (10, 3) and remove the screws.
+Task: Move to location (3, 5) and remove the screws.
 
 Best case screwdriver:
    1. Robot:          Robot45
    2. Tool property:  screwdriver
    3. Item:           screws
-   4. Location:       (10, 3)
+   4. Location:       (3, 5)
 
 Alternative screwdriver:
    1. Robot:          ['Robot15', 'Robot35', 'Robot45']

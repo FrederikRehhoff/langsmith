@@ -1,43 +1,43 @@
 ----------------------------------------------------------------------
-Task: Move Robot13 to location (6, 10) and remove the toolkit.
+Task: Move Robot40 to location (4, 8) and remove the toolkit.
 
-Analysis: Robot13 has the wrong tool property tow Hook. Select robot with tool property ['gripper'].
+Analysis: Robot40 has the wrong tool property vacuum. Select robot with tool property ['gripper'].
 
 Best case gripper:
-   1. Robot:          Robot22
+   1. Robot:          Robot2
    2. Tool property:  gripper
    3. Item:           toolkit
-   4. Location:       (6, 10)
+   4. Location:       (4, 8)
 
 Alternative gripper:
    1. Robot:          ['Robot2', 'Robot22', 'Robot32', 'Robot42']
    2. Tool property:  gripper
 
 ----------------------------------------------------------------------
-Task: Move Robot39 to location (8, 12) and remove the liquid spill.
+Task: Move Robot40 to location (6, 2) and remove the liquid spill.
 
-Analysis: Robot39 has the wrong tool property front Loader. Select robot with tool property ['mop'].
+Analysis: Robot40 has the wrong tool property vacuum. Select robot with tool property ['mop'].
 
 Best case mop:
-   1. Robot:          Robot6
+   1. Robot:          Robot26
    2. Tool property:  mop
    3. Item:           liquid spill
-   4. Location:       (8, 12)
+   4. Location:       (6, 2)
 
 Alternative mop:
    1. Robot:          ['Robot6', 'Robot26']
    2. Tool property:  mop
 
 ----------------------------------------------------------------------
-Task: Move Robot31 to location (12, 10) and remove the large debris.
+Task: Move Robot9 to location (12, 3) and remove the large debris.
 
-Analysis: Robot31 has the wrong tool property lawnmower. Select robot with tool property ['gripper', 'front loader'].
+Analysis: Robot9 has the wrong tool property front Loader. Select robot with tool property ['gripper', 'front loader'].
 
 Best case gripper:
    1. Robot:          Robot32
    2. Tool property:  gripper
    3. Item:           large debris
-   4. Location:       (12, 10)
+   4. Location:       (12, 3)
 
 Alternative gripper:
    1. Robot:          ['Robot2', 'Robot22', 'Robot32', 'Robot42']
@@ -47,152 +47,152 @@ Best case front loader:
    1. Robot:          Robot29
    2. Tool property:  front loader
    3. Item:           large debris
-   4. Location:       (12, 10)
+   4. Location:       (12, 3)
 
 Alternative front loader:
    1. Robot:          ['Robot9', 'Robot19', 'Robot29', 'Robot39']
    2. Tool property:  front loader
 
 ----------------------------------------------------------------------
-Task: Move Robot22 to location (5, 2) and remove the dust.
+Task: Move Robot35 to location (2, 11) and remove the dust.
 
-Analysis: Robot22 has the wrong tool property gripper. Select robot with tool property ['vacuum', 'broom'].
+Analysis: Robot35 has the wrong tool property screwdriver. Select robot with tool property ['vacuum', 'broom'].
 
 Best case vacuum:
-   1. Robot:          Robot40
+   1. Robot:          Robot50
    2. Tool property:  vacuum
    3. Item:           dust
-   4. Location:       (5, 2)
+   4. Location:       (2, 11)
 
 Alternative vacuum:
    1. Robot:          ['Robot10', 'Robot40', 'Robot50']
    2. Tool property:  vacuum
 
 Best case broom:
-   1. Robot:          Robot48
+   1. Robot:          Robot28
    2. Tool property:  broom
    3. Item:           dust
-   4. Location:       (5, 2)
+   4. Location:       (2, 11)
 
 Alternative broom:
    1. Robot:          ['Robot8', 'Robot28', 'Robot48']
    2. Tool property:  broom
 
 ----------------------------------------------------------------------
-Task: Move Robot23 to location (10, 12) and remove the grass.
+Task: Move Robot26 to location (12, 1) and remove the grass.
 
-Analysis: Robot23 has the wrong tool property tow Hook. Select robot with tool property ['lawnmower'].
+Analysis: Robot26 has the wrong tool property mop. Select robot with tool property ['lawnmower'].
 
 Best case lawnmower:
-   1. Robot:          Robot21
+   1. Robot:          Robot31
    2. Tool property:  lawnmower
    3. Item:           grass
-   4. Location:       (10, 12)
+   4. Location:       (12, 1)
 
 Alternative lawnmower:
    1. Robot:          ['Robot11', 'Robot21', 'Robot31', 'Robot41']
    2. Tool property:  lawnmower
 
 ----------------------------------------------------------------------
-Task: Move Robot6 to location (8, 2) and remove the small debris.
+Task: Move Robot41 to location (4, 11) and remove the small debris.
 
-Analysis: Robot6 has the wrong tool property mop. Select robot with tool property ['broom', 'vacuum'].
+Analysis: Robot41 has the wrong tool property lawnmower. Select robot with tool property ['broom', 'vacuum'].
 
 Best case broom:
-   1. Robot:          Robot8
+   1. Robot:          Robot28
    2. Tool property:  broom
    3. Item:           small debris
-   4. Location:       (8, 2)
+   4. Location:       (4, 11)
 
 Alternative broom:
    1. Robot:          ['Robot8', 'Robot28', 'Robot48']
    2. Tool property:  broom
 
 Best case vacuum:
-   1. Robot:          Robot40
+   1. Robot:          Robot50
    2. Tool property:  vacuum
    3. Item:           small debris
-   4. Location:       (8, 2)
+   4. Location:       (4, 11)
 
 Alternative vacuum:
    1. Robot:          ['Robot10', 'Robot40', 'Robot50']
    2. Tool property:  vacuum
 
 ----------------------------------------------------------------------
-Task: Move Robot45 to location (2, 8) and remove the vehicle.
+Task: Move Robot2 to location (9, 1) and remove the vehicle.
 
-Analysis: Robot45 has the wrong tool property screwdriver. Select robot with tool property ['tow hook'].
+Analysis: Robot2 has the wrong tool property gripper. Select robot with tool property ['tow hook'].
 
 Best case tow hook:
-   1. Robot:          Robot13
+   1. Robot:          Robot23
    2. Tool property:  tow hook
    3. Item:           vehicle
-   4. Location:       (2, 8)
+   4. Location:       (9, 1)
 
 Alternative tow hook:
    1. Robot:          ['Robot13', 'Robot23']
    2. Tool property:  tow hook
 
 ----------------------------------------------------------------------
-Task: Move Robot21 to location (1, 10) and remove the construction materials.
+Task: Move Robot28 to location (11, 6) and remove the construction materials.
 
-Analysis: Robot21 has the wrong tool property lawnmower. Select robot with tool property ['gripper', 'front loader', 'tow hook'].
+Analysis: Robot28 has the wrong tool property broom. Select robot with tool property ['gripper', 'front loader', 'tow hook'].
 
 Best case gripper:
-   1. Robot:          Robot2
+   1. Robot:          Robot42
    2. Tool property:  gripper
    3. Item:           construction materials
-   4. Location:       (1, 10)
+   4. Location:       (11, 6)
 
 Alternative gripper:
    1. Robot:          ['Robot2', 'Robot22', 'Robot32', 'Robot42']
    2. Tool property:  gripper
 
 Best case front loader:
-   1. Robot:          Robot9
+   1. Robot:          Robot29
    2. Tool property:  front loader
    3. Item:           construction materials
-   4. Location:       (1, 10)
+   4. Location:       (11, 6)
 
 Alternative front loader:
    1. Robot:          ['Robot9', 'Robot19', 'Robot29', 'Robot39']
    2. Tool property:  front loader
 
 Best case tow hook:
-   1. Robot:          Robot13
+   1. Robot:          Robot23
    2. Tool property:  tow hook
    3. Item:           construction materials
-   4. Location:       (1, 10)
+   4. Location:       (11, 6)
 
 Alternative tow hook:
    1. Robot:          ['Robot13', 'Robot23']
    2. Tool property:  tow hook
 
 ----------------------------------------------------------------------
-Task: Move Robot8 to location (8, 8) and remove the tree branches.
+Task: Move Robot39 to location (6, 1) and remove the tree branches.
 
-Analysis: Robot8 has the wrong tool property broom. Select robot with tool property ['saw'].
+Analysis: Robot39 has the wrong tool property front Loader. Select robot with tool property ['saw'].
 
 Best case saw:
    1. Robot:          Robot24
    2. Tool property:  saw
    3. Item:           tree branches
-   4. Location:       (8, 8)
+   4. Location:       (6, 1)
 
 Alternative saw:
    1. Robot:          ['Robot14', 'Robot24']
    2. Tool property:  saw
 
 ----------------------------------------------------------------------
-Task: Move Robot31 to location (1, 11) and remove the screws.
+Task: Move Robot28 to location (2, 8) and remove the screws.
 
-Analysis: Robot31 has the wrong tool property lawnmower. Select robot with tool property ['screwdriver'].
+Analysis: Robot28 has the wrong tool property broom. Select robot with tool property ['screwdriver'].
 
 Best case screwdriver:
-   1. Robot:          Robot35
+   1. Robot:          Robot45
    2. Tool property:  screwdriver
    3. Item:           screws
-   4. Location:       (1, 11)
+   4. Location:       (2, 8)
 
 Alternative screwdriver:
    1. Robot:          ['Robot15', 'Robot35', 'Robot45']

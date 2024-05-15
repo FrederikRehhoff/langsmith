@@ -1,0 +1,1 @@
+Move Robot40 to location (4, 8) and remove the toolkit.
