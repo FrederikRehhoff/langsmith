@@ -1,7 +1,7 @@
 Robot32;gripper;toolkit;(2, 9)
 Robot6;mop;liquid spill;(5, 4)
 Robot22;gripper;large debris;(5, 12)
-Robot48;broom;dust;(6, 6)
+Robot50;vacuum;dust;(6, 6)
 Robot41;lawnmower;grass;(1, 8)
 Robot10;vacuum;small debris;(9, 5)
 Robot13;tow hook;vehicle;(10, 10)

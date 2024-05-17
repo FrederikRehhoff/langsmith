@@ -1,7 +1,7 @@
 Robot42;gripper;toolkit;(9, 5)
 Robot6;mop;liquid spill;(3, 8)
 Robot2;gripper;large debris;(1, 4)
-Robot50;vacuum;dust;(6, 5)
+ROBOT NAME;TOOL PROPERTY;ITEM;ITEM POSITION
 Robot11;lawnmower;grass;(9, 5)
 Robot50;vacuum;small debris;(5, 12)
 Robot23;tow hook;vehicle;(11, 12)
