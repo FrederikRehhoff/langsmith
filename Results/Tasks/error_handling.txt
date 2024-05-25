@@ -1,10 +1,10 @@
-Move Robot40 to location (4, 8) and remove the toolkit.
-Move Robot40 to location (6, 2) and remove the liquid spill.
-Move Robot9 to location (12, 3) and remove the large debris.
-Move Robot35 to location (2, 11) and remove the dust.
-Move Robot26 to location (12, 1) and remove the grass.
-Move Robot41 to location (4, 11) and remove the small debris.
-Move Robot2 to location (9, 1) and remove the vehicle.
-Move Robot28 to location (11, 6) and remove the construction materials.
-Move Robot39 to location (6, 1) and remove the tree branches.
-Move Robot28 to location (2, 8) and remove the screws.
+Move Robot31 to location (4, 8) and remove the toolkit.
+Move Robot41 to location (6, 1) and remove the liquid spill.
+Move Robot45 to location (3, 4) and remove the large debris.
+Move Robot22 to location (10, 12) and remove the dust.
+Move Robot39 to location (12, 11) and remove the grass.
+Move Robot6 to location (12, 5) and remove the small debris.
+Move Robot14 to location (4, 2) and remove the vehicle.
+Move Robot9 to location (1, 11) and remove the construction materials.
+Move Robot29 to location (3, 2) and remove the tree branches.
+Move Robot11 to location (3, 5) and remove the screws.
