@@ -1,8 +1,8 @@
 Robot42;gripper;toolkit;(10, 2)
-Robot6;mop;liquid spill;(6, 6)
+DNF;DNF;DNF;DNF
 Robot2;gripper;large debris;(5, 3)
 Robot50;vacuum;dust;(6, 10)
-Robot21;lawnmower;grass;(4, 8)
+DNF;DNF;DNF;DNF
 Robot50;vacuum;small debris;(8, 7)
 Robot13;tow hook;vehicle;(1, 10)
 Robot22;gripper;construction materials;(2, 12)

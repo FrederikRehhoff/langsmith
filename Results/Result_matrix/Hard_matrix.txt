@@ -1,10 +1,10 @@
-Robot21;gripper;toolkit;(6, 12)
-Robot6;mop;liquid spill;(1, 11)
-Robot9;front loader;large debris;(1, 5)
-Robot50;vacuum;dust;(1, 11)
-ROBOT21;lawnmower;grass;(3, 9)
-Robot10;vacuum;small debris;(11, 12)
-Robot39;tow hook;vehicle;(6, 4)
-Robot42;gripper;construction materials;(11, 2)
-Robot14;saw;tree branches;(1, 10)
-Robot26;screwdriver;screws;(1, 3)
+DNF;DNF;DNF;DNF
+Robot6;mop;liquid spill;(6, 5)
+Robot35;gripper;large debris;(3, 3)
+Robot15;vacuum;dust;(3, 4)
+Robot29;lawnmower;grass;(9, 10)
+Robot50;vacuum;small debris;(8, 12)
+Robot23;tow hook;vehicle;(7, 5)
+DNF;DNF;DNF;DNF
+Robot24;saw;tree branches;(11, 2)
+DNF;DNF;DNF;DNF

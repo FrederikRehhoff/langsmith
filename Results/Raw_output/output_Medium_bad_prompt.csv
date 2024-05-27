@@ -1,0 +1,176 @@
+Move to location (10, 2) and remove the toolkit.;"Supervisor:
+Next: Robot_selector
+response: Selecting a robot to move to the specified location and remove the toolkit.
+---
+Robot Selector:
+Robot42, equipped with a gripper, has been selected and is now moving to the location (10, 2) to remove the toolkit.
+---
+Supervisor:
+Next: Controller
+response: The Controller needs to confirm that Robot42 has reached the location and successfully removed the toolkit.
+---
+Controller:
+Robot42 has successfully moved to the location (10, 2), removed the toolkit, and is now set to idle status.
+---
+Supervisor:
+Next: FINISH
+response: Robot42;gripper;toolkit;(10, 2)
+---
+"
+Move to location (6, 6) and remove the liquid spill.;"Supervisor:
+Next: Robot_selector
+response: Selecting the appropriate robot to move to location (6, 6) and remove the liquid spill.
+---
+Robot Selector:
+Robot6, equipped with a mop, has been selected and is now moving to location (6, 6) to remove the liquid spill. The task will be handled efficiently.
+---
+Supervisor:
+Next: FINISH
+response: Robot6;mop;liquid spill;(6, 6)
+---
+"
+Move to location (5, 3) and remove the large debris.;"Supervisor:
+Next: Robot_selector
+response: Selecting a robot capable of moving to the specified location and removing large debris.
+---
+Robot Selector:
+Robot2, equipped with a gripper, has been selected and is now tasked with moving to location (5, 3) to remove the large debris. The task is being handled.
+---
+Supervisor:
+Next: Controller
+response: The Controller needs to guide Robot2 to the specified location and oversee the removal of the large debris.
+---
+Controller:
+Robot2 has successfully moved to location (5, 3), removed the large debris, and is now set to idle status.
+---
+Supervisor:
+Next: FINISH
+response: Robot2;gripper;large debris;(5, 3)
+---
+"
+Move to location (6, 10) and remove the dust.;"Supervisor:
+Next: Robot_selector
+response: Select a robot capable of moving to the specified location and removing dust.
+---
+Robot Selector:
+Robot50, equipped with a vacuum, has been selected and is now proceeding to the location (6, 10) to remove the dust.
+---
+Supervisor:
+Next: Controller
+response: The Controller needs to guide Robot50 to the specified location and ensure the dust removal task is completed.
+---
+Controller:
+Robot50 has successfully moved to the location (6, 10), removed the dust, and is now set to idle status.
+---
+Supervisor:
+Next: FINISH
+response: Robot50;vacuum;dust;(6, 10)
+---
+"
+Move to location (4, 8) and remove the grass.;"Supervisor:
+Next: Robot_selector
+response: Select a robot capable of moving to the specified location and removing grass.
+---
+Robot Selector:
+Robot21, equipped with a lawnmower, has been selected and will move to location (4, 8) to remove the grass. The task will be carried out autonomously.
+---
+Supervisor:
+Next: FINISH
+response: Robot21;lawnmower;grass;(4, 8)
+---
+"
+Move to location (8, 7) and remove the small debris.;"Supervisor:
+Next: Robot_selector
+response: Selecting the appropriate robot to move to location (8, 7) and remove the small debris.
+---
+Robot Selector:
+Robot50, equipped with a vacuum, has been selected and is now moving to location (8, 7) to remove the small debris.
+---
+Supervisor:
+Next: Controller
+response: The Controller needs to confirm that Robot50 has reached the location and successfully removed the debris.
+---
+Controller:
+Robot50 has successfully moved to location (8, 7), removed the small debris, and is now set to idle status.
+---
+Supervisor:
+Next: FINISH
+response: Robot50;vacuum;small debris;(8, 7)
+---
+"
+Move to location (1, 10) and remove the vehicle.;"Supervisor:
+Next: Robot_selector
+response: Selecting a robot capable of moving to the specified location and removing the vehicle.
+---
+Robot Selector:
+Robot13, equipped with a tow hook, has been selected and is now moving to the location (1, 10) to remove the vehicle.
+---
+Supervisor:
+Next: Controller
+response: The Controller needs to supervise the robot's operation and confirm the task completion.
+---
+Controller:
+Robot13 has successfully moved to location (1, 10), removed the vehicle, and is now set to idle status.
+---
+Supervisor:
+Next: FINISH
+response: Robot13;tow hook;vehicle;(1, 10)
+---
+"
+Move to location (2, 12) and remove the construction materials.;"Supervisor:
+Next: Robot_selector
+response: Selecting a robot capable of moving to the specified location and removing construction materials.
+---
+Robot Selector:
+Robot22 has been selected and will move to location (2, 12) to remove the construction materials using its gripper tool. The task is now in progress.
+---
+Supervisor:
+Next: Controller
+response: The Controller needs to supervise Robot22's task and provide status updates.
+---
+Controller:
+Robot22 has successfully moved to location (2, 12), removed the construction materials, and is now set to idle status.
+---
+Supervisor:
+Next: FINISH
+response: Robot22;gripper;construction materials;(2, 12)
+---
+"
+Move to location (8, 9) and remove the tree branches.;"Supervisor:
+Next: Robot_selector
+response: Select a robot capable of moving to the location and removing tree branches.
+---
+Robot Selector:
+Robot14, equipped with a saw, has been selected and will move to location (8, 9) to remove the tree branches. The task is being handled.
+---
+Supervisor:
+Next: Controller
+response: The Controller needs to guide Robot14 to the specified location and oversee the branch removal task.
+---
+Controller:
+Robot14 has successfully moved to location (8, 9), removed the tree branches, and is now set to idle status.
+---
+Supervisor:
+Next: FINISH
+response: Robot14;saw;tree branches;(8, 9)
+---
+"
+Move to location (7, 5) and remove the screws.;"Supervisor:
+Next: Robot_selector
+response: Select a robot capable of moving to the specified location and removing screws.
+---
+Robot Selector:
+Robot15, equipped with a screwdriver, has been selected and is now moving to location (7, 5) to remove the screws. The task will be handled efficiently.
+---
+Supervisor:
+Next: Controller
+response: The Controller needs to confirm that Robot15 has reached the designated location and has successfully removed the screws.
+---
+Controller:
+Robot15 has successfully moved to location (7, 5) and removed the screws. It is now set to idle status.
+---
+Supervisor:
+Next: FINISH
+response: Robot15;screwdriver;screws;(7, 5)
+---
+"

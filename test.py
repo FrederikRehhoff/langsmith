@@ -86,31 +86,31 @@ def compare_primary(excel_list, text_value):
 
     
 
-##### ReAct Comparison #####
+# ##### ReAct Comparison #####
 
-# File paths for the text and Excel files
-text_file_path = 'Results\Result_matrix\Easy_react_matrix.txt'
-excel_file_path = 'Results\Easy_task_validation.xlsx'
-output_file_path = 'Results\comparison_results\Easy_comparison\Easy_react_comparison_Results.xlsx'
+# # File paths for the text and Excel files
+# text_file_path = 'Results\Result_matrix\Easy_react_matrix.txt'
+# excel_file_path = 'Results\Easy_task_validation.xlsx'
+# output_file_path = 'Results\comparison_results\Easy_comparison\Easy_react_comparison_Results.xlsx'
 
-# Run the function
-compare_files_with_complete_handling(text_file_path, excel_file_path, output_file_path)
+# # Run the function
+# compare_files_with_complete_handling(text_file_path, excel_file_path, output_file_path)
 
-# Paths for the files (update these paths according to your file locations)
-text_file_path = 'Results\Result_matrix\Medium_react_matrix.txt'
-excel_file_path = 'Results\Medium_task_validation.xlsx'
-output_file_path = 'Results\comparison_results\Medium_comparison\Medium_react_comparison_Results.xlsx'
+# # Paths for the files (update these paths according to your file locations)
+# text_file_path = 'Results\Result_matrix\Medium_react_matrix.txt'
+# excel_file_path = 'Results\Medium_task_validation.xlsx'
+# output_file_path = 'Results\comparison_results\Medium_comparison\Medium_react_comparison_Results.xlsx'
 
-# Run the function
-compare_files_with_complete_handling(text_file_path, excel_file_path, output_file_path)
+# # Run the function
+# compare_files_with_complete_handling(text_file_path, excel_file_path, output_file_path)
 
-# File paths for the text and Excel files
-text_file_path = 'Results\Result_matrix\Hard_react_matrix.txt'
-excel_file_path = 'Results\Hard_task_validation.xlsx'
-output_file_path = 'Results\comparison_results\Hard_comparison\Hard_react_comparison_Results.xlsx'
+# # File paths for the text and Excel files
+# text_file_path = 'Results\Result_matrix\Hard_react_matrix.txt'
+# excel_file_path = 'Results\Hard_task_validation.xlsx'
+# output_file_path = 'Results\comparison_results\Hard_comparison\Hard_react_comparison_Results.xlsx'
 
-# Run the function
-compare_files_with_complete_handling(text_file_path, excel_file_path, output_file_path)
+# # Run the function
+# compare_files_with_complete_handling(text_file_path, excel_file_path, output_file_path)
 
 
 ##### Normal Comparison #####
@@ -138,3 +138,29 @@ output_file_path = 'Results\comparison_results\Hard_comparison\Hard_normal_compa
 
 # Run the function
 compare_files_with_complete_handling(text_file_path, excel_file_path, output_file_path)
+
+#### Normal Comparison bad prompt #####
+
+# # File paths for the text and Excel files
+# text_file_path = 'Results\Result_matrix\Easy_bad_prompt_matrix.txt'
+# excel_file_path = 'Results\Easy_task_validation.xlsx'
+# output_file_path = 'Results\comparison_results\Easy_comparison\Easy_normal_comparison_bad_prompt_Results.xlsx'
+
+# # Run the function
+# compare_files_with_complete_handling(text_file_path, excel_file_path, output_file_path)
+
+# # Paths for the files (update these paths according to your file locations)
+# text_file_path = 'Results\Result_matrix\Medium_bad_prompt_matrix.txt'
+# excel_file_path = 'Results\Medium_task_validation.xlsx'
+# output_file_path = 'Results\comparison_results\Medium_comparison\Medium_normal_comparison_bad_prompt_Results.xlsx'
+
+# # Run the function
+# compare_files_with_complete_handling(text_file_path, excel_file_path, output_file_path)
+
+# # File paths for the text and Excel files
+# text_file_path = 'Results\Result_matrix\Hard_bad_prompt_matrix.txt'
+# excel_file_path = 'Results\Hard_task_validation.xlsx'
+# output_file_path = 'Results\comparison_results\Hard_comparison\Hard_normal_comparison_bad_prompt_Results.xlsx'
+
+# # Run the function
+# compare_files_with_complete_handling(text_file_path, excel_file_path, output_file_path)

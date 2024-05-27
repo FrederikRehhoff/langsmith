@@ -1,8 +1,10 @@
-Robot32;gripper;toolkit;(2, 9)
-Robot6;mop;liquid spill;(5, 4)
-Robot29;front loader;large debris;(5, 12)
-Robot48;broom;dust;(6, 6)
-Robot41;lawnmower;grass;(1, 8)
-Robot10;vacuum;small debris;(9, 5)
-Robot13;tow hook;vehicle;(10, 10)
-Robot23;tow hook;construction materials;(8, 2)
+Move to location (3, 7) and remove the toolkit.
+Move to location (8, 7) and remove the liquid spill.
+Move to location (6, 1) and remove the large debris.
+Move to location (2, 9) and remove the dust.
+Move to location (2, 8) and remove the grass.
+Move to location (8, 10) and remove the small debris.
+Move to location (2, 11) and remove the vehicle.
+Move to location (4, 4) and remove the construction materials.
+Move to location (3, 2) and remove the tree branches.
+Move to location (3, 1) and remove the screws.
